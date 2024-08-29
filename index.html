@@ -16,11 +16,58 @@
     <![endif]-->
 
     <link rel="stylesheet" href="estilo.css">
-    <title>Imagens Responsivas</title>
+    <title>Bootstrap Curso</title>
 </head>
 
 <body>
 
+    <!--Barra de navegação-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapsed" data-target="#barra-navegacao">
+                    <span class="sr-only">Alternar Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">LOGO</a>
+            </div>
+
+            <div class="collapse navbar-collapsed" id="barra-navegacao">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Empresa</a></li>
+                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#">Produtos</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Minha Conta <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Editar</a></li>
+                            <li><a href="#">Logar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="page-header">
+            <h1>Navegação com Bootstrap</h1>
+        </div>
+
+    </div>
+
+
+
+    <br><br><br><br><br><br><br><br>
     <div class="container">
         <div class="page-header">
             <h1>Imagens Responsivas com Bootstrap</h1>
@@ -38,10 +85,10 @@
         <div class="row">
             <div class="col-sm-12">
                 <h3>Forma Imagens</h3>
-            <img src="img/uvas200.png" class="img-circle">
-            <img src="img/uvas200.png" class="img-raunded">
-            <img src="img/uvas200.png" class="img-thumbnail">
-            <img src="img/uvas200.png" class="img-circle">
+                <img src="img/uvas200.png" class="img-circle">
+                <img src="img/uvas200.png" class="img-raunded">
+                <img src="img/uvas200.png" class="img-thumbnail">
+                <img src="img/uvas200.png" class="img-circle">
             </div>
         </div>
     </div>
@@ -134,14 +181,10 @@
         </div>
 
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-            crossorigin="anonymous"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
-            integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-            crossorigin="anonymous"></script>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </body>
 
